@@ -1,0 +1,33 @@
+/* body {
+    text-align: center;
+} */
+h1 {
+    color: white;
+    background-color: rgb(188, 44, 44);
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img {
+    border: 2ex solid white;
+}
+
+p {
+    padding: 1px;
+}
+
+footer {
+    background-color: rgb(177, 34, 34);
+    color: rgb(20, 19, 19);
+    text-align: center;
+
+}
+
+a {
+    /* color: antiquewhite; */
+    margin: 10px;
+
+}
