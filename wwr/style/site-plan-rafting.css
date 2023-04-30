@@ -116,11 +116,11 @@ nav a {
   padding: 10px;
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: rgb(38, 45, 1);
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: white;
+  background-color: black;
 }
 .sitemap {
   display: grid;
