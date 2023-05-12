@@ -94,7 +94,8 @@ nav a {
 
 a.book {
     background-color: #dee9f1;
-    margin: 710px;
+    /* margin: 710px; */
+    text-align: center;
 }
 
 a.book:hover {
