@@ -1,0 +1,57 @@
+.savior {
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+
+}
+
+img {
+    width: 12%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+ol {
+
+    
+    list-style-position: inside;
+    text-align: center;
+    font-size: large;
+    padding: 1px;
+}
+
+.savior {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    margin: 2px;
+}
+
+
+body {
+    background-color: hwb(350 61% 1%);
+}
+
+a:hover {
+    color: white;
+    /* text-align: center; */
+
+}
