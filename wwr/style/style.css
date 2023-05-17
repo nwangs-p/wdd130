@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+/* #hero-box {
+    border: 10px solid black;
+} */
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -10,6 +14,11 @@
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
+  
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 #hero-img {
@@ -18,11 +27,41 @@
 
 #background {
     height: 725px;
-    background-color: #dee9f1;
+    background-color: #a7a1a1;
 }
 
-.books {
-    background-color: #dee9f1;
+.mountains {
+    margin-top: 75px;
+    margin-bottom: 200px;
+}
+
+.card-img {
+    border: 10px solid rgb(225, 215, 215);
+}
+
+.home-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    color: rgb(225, 215, 215);
+}
+
+
+
+.books, .join {
+    background-color: rgb(225, 215, 215);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    color: black;
+    border-radius: 5px;
+}
+
+a.join:hover {
+    background-color: black;
+    color: white;
 }
 
 a.books:hover {
@@ -58,6 +97,7 @@ a.books:hover {
 
 .icon {
     width: 80px;
+    padding: 10px;
 }
 
 /* .rivers-card {
@@ -70,8 +110,20 @@ a.books:hover {
     margin: 0 auto;
 }
 
+.rivers-card, .camping-card, .rapid-card {
+    margin: 200px 0;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
 header {
-    background-color: #dee9f1;
+    background-color: #a7a1a1;
+}
+
+h2 {
+    margin: 0;
 }
 
 nav a:link, nav a:visited {
@@ -85,17 +137,45 @@ nav a:hover {
 
 nav a {
     text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
 }
 
-.h, .pn {
+/* .h, .pn {
     text-align: center;
     background-color: #dee9f1;
 }
 
 a.book {
     background-color: #dee9f1;
-    /* margin: 710px; */
+    margin: 710px;
+    /* text-align: center; */
+
+body {
+    /* background-color: #dee9f1; */
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+/* .mountains {
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+
+.below {
     text-align: center;
+    background-color: #a7a1a1;
+    /* background-color: #6f7364; */
+    line-height: 1.5em;
+    padding: 35px;
+
+}
+
+.below p {
+    padding-bottom: 15px;
 }
 
 a.book:hover {
@@ -119,12 +199,26 @@ a {
     text-decoration: none;
 }
 
-footer p a:hover {
+/* footer p a:hover {
    
     background-color: black;
-    color: white;
-} 
+    color: white; */
+ 
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer p, p a {
+    color: rgb(69, 68, 68);
+}
 
 footer  {
-    background-color: #dee9f1;
+    background-color: #a7a1a1;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
+/* footer p a {
+    padding: 25px;
+} */
