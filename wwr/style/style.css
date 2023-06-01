@@ -192,7 +192,7 @@ main section img {
 }
 
 header {
-    /* background-color: #a7a1a1; */
+    background-color: #a7a1a1;
     display: grid;
     grid-template-columns: 150px auto;
 }
