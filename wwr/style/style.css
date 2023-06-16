@@ -54,7 +54,7 @@
 #background {
     height: 625px;
     background-color: #a7a1a1;
-    grid-column: 1/12;
+    grid-column: 1/11;
     grid-row: 4/9;
 }
 
@@ -88,9 +88,25 @@
     font-size: 2em;
     margin-top: 10px;
     color: rgb(225, 215, 215);
+
 }
 
 
+.page-2-img  {
+    width: 30%;
+    float: right;
+    margin-right: 20px;
+}
+
+.p-pages{
+    margin-top: 400px;
+    margin-left: 10px;
+}
+
+.p-page{
+    font-size: 25px;
+    margin: 20px;
+}
 
 .books, .join {
     background-color: rgb(225, 215, 215);
@@ -118,7 +134,7 @@ a.books:hover {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(11, 10fr);
+    grid-template-columns: repeat(10, 1fr);
 }
 
 /* .msg {
@@ -126,16 +142,16 @@ a.books:hover {
     margin-left: 100px;
 } */
 
-.below {
+#below {
     text-align: center;
     background-color: #a7a1a1;
     /* background-color: #6f7364; */
     box-shadow: 5px 5px 10px #6f7364;
-    line-height: 1.5em;
+    line-height: 1.5rem;
     padding: 35px;
     /* margin-left: 200px; */
-    grid-column: 6/10;
-    grid-row: 6/7;
+    grid-column: 6/11;
+    grid-row: 2/7;
     
 }
 
@@ -145,7 +161,7 @@ a.books:hover {
     display: block;
     margin: 0 auto;
     grid-column: 2/4;
-    grid-row: 2/6;
+    grid-row: 2/3;
 }
 
 .camping-card {
@@ -178,10 +194,10 @@ a.books:hover {
     margin: 0 auto;
 } */
 
-.camping-card {
+/* .camping-card {
     display: block;
     margin: 0 auto;
-}
+} */
 
 .rivers-card, .camping-card, .rapid-card {
     margin: 200px 0;
