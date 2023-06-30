@@ -173,23 +173,74 @@ footer {
   /* grid-column: 2/3; */
 }
 
-@media screen and (min-width: 320px) {
-  /* Modify the styles to fit the minimum screen size */
+/* Styles for minimum screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  header {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  
+  nav {
+    margin-top: 15px;
+  }
+  
   nav a {
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  nav a:nth-last-of-type(1) {
+    margin-left: 0;
+  }
+  
+  #page-img {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 150px;
+    margin-left: 10px;
+    grid-gap: 20px;
+  }
+  
+  .img1,
+  .img2 {
+    width: 100%;
+    height: auto;
+    grid-column: auto;
+    grid-row: auto;
+    margin: 0;
+    transform: none;
+  }
+  
+  .out {
+    grid-column: auto;
+    grid-row: auto;
+    margin-left: 10px;
+  }
+  
+  .dw {
+    margin-left: 10px;
+    margin-top: 20px;
   }
   
   .cv {
+    grid-column: auto;
+    grid-row: auto;
     margin-left: 10px;
-    margin-top: 0;
+    margin-top: 20px;
+  }
+  
+  .down {
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   
   footer {
-    padding-left: 15px;
+    padding-left: 10px;
     font-size: 13px;
+    justify-content: center;
   }
   
   .social {
-    padding-left: 700px;
+    padding-left: 10px;
   }
 }
