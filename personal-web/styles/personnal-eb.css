@@ -122,6 +122,17 @@ div h3:nth-last-of-type(2) {
  font-size: 25px;
 }
 
+.dw {
+  text-decoration: none;
+  background-color: rgb(230, 12, 12);
+  color: white;
+  margin-left: 300px;
+  font-size: 20px;
+  width: 30px;
+  padding: 21px;
+  border-radius: 5px;
+  opacity: .92;
+}
 
 .cv {
   grid-column: 2/6;
@@ -133,19 +144,6 @@ div h3:nth-last-of-type(2) {
 .cv :hover {
   color: #343434;
   background-color: white;
-}
-
-.dw {
-  text-decoration: none;
-  background-color: rgb(230, 12, 12);
-  color: white;
-  margin-left: 300px;
-  font-size: 20px;
-  width: 30px;
-  padding: 21px;
-  border-radius: 5px;
-  opacity: .92;
- 
 }
 
 .down {
@@ -178,7 +176,7 @@ footer {
 footer p {
   grid-column: 1/2;
 } */
-
+/* 
 
 @media screen and (max-width: 767px) {
   nav a:nth-last-of-type(1) {
@@ -236,4 +234,4 @@ footer p {
     padding-right: 10px;
     width: 100%;
   }
-} 
+}  */
