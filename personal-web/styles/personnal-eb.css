@@ -98,7 +98,7 @@ nav :hover {
 .out {
   grid-column: 2/6 ;
   grid-row: 1/2;
-  margin-left: 170px;
+  margin-left: 155px;
   /* font-size: 1rem; */
   padding: 20px;
   /* grid-row: 1/2; */
@@ -126,7 +126,7 @@ div h3:nth-last-of-type(2) {
   text-decoration: none;
   background-color: rgb(230, 12, 12);
   color: white;
-  /* margin-left: 100px; */
+  margin-left: 90px;
   font-size: 20px;
   width: 30px;
   padding: 21px;
