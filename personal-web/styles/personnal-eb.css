@@ -163,7 +163,7 @@ footer {
   color: white;
   padding-top: 12px;
   padding-bottom: 12px;
-  font-size: 18px;
+  font-size: 10px;
 }
 
 .social {
@@ -189,7 +189,7 @@ footer p {
   #page-img {
     margin-top: 100px;
     margin-left: 10px;
-    grid-gap: 30px;
+    /* grid-gap: 30px; */
   }
 
   .img1,
