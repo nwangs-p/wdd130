@@ -156,6 +156,7 @@ div h3:nth-last-of-type(2) {
 footer {
   margin-top: 100px;
   display: grid;
+  grid-template-columns: repeat(3,fr1);
   padding-left: 35px;
   background-color: red;
   opacity: .50;
@@ -167,7 +168,13 @@ footer {
 
 .social {
   padding-left: 950px;
+  grid-column: 2/3;
 }
+
+footer p {
+  grid-column: 1/2;
+}
+
 
 @media screen and (max-width: 767px) {
   nav a:nth-last-of-type(1) {
