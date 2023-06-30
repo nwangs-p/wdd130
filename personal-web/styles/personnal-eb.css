@@ -22,7 +22,7 @@ nav {
 }
 
 nav a:nth-last-of-type(1) {
-  margin-left: 120px;
+  margin-left: 1200px;
   background-color: red;
   width: 10px;
   padding: 25px;
@@ -125,7 +125,7 @@ div h3:nth-last-of-type(2) {
 .cv {
   grid-column: 2/6;
   grid-row: 2/4;
-  margin-left: 120px;
+  margin-left: 100px;
   margin-top: 1px; 
   text-align: center;
   text-decoration: none;
@@ -154,13 +154,13 @@ div h3:nth-last-of-type(2) {
 
 footer {
   margin-top: 100px;
-  display: flex;
+  display: inline;
   padding-left: 40px;
   background-color: red;
   opacity: .50;
   color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-size: 18px;
 }
 
