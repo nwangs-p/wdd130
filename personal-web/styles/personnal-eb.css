@@ -175,36 +175,24 @@ footer {
 
 /* Styles for minimum screens (max-width: 768px) */
 @media screen and (max-width: 768px) {
-  /* header {
+  header {
     grid-template-columns: auto;
     justify-content: center;
-  } */
-
-  header {
-    display: grid;
-    grid-template-columns: auto 1fr auto; /* Updated grid template */
-    align-items: center; /* Center align items vertically */
-    margin-left: 20px;
-    margin-top: 20px;
   }
- 
+  
   nav {
-    margin-top: 15px; 
-    padding-top: 50px;
+    margin-top: 15px;
   }
   
-  
-  nav  {
-    /* margin-left: 10px; */
+  nav a {
+    margin-left: 10px;
     margin-right: 10px;
-    
-  } 
+  }
   
   nav a:nth-last-of-type(1) {
-    margin-left: auto;
-    margin-top: 100px;
-    /* margin-top: 20px; */
+    margin-left: 0;
   }
+  
   
   #page-img {
     grid-template-columns: repeat(6, 1fr);
