@@ -204,24 +204,25 @@ footer {
   .img2 {
     width: 100%;
     height: auto;
-    grid-column: 2/3;
+    grid-column: 1/2;
     grid-row: 1/2;
     margin: 0;
-    transform: rotate(-10deg);
+    /* transform: rotate(-10deg); */
   }
   .img1 {
     width: 100%;
     height: auto;
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 2/3;
     margin: 0;
-    transform: rotate(10deg);
+    /* transform: rotate(10deg); */
   }
   
   .out {
     grid-column: 1/2;
-    grid-row: 2/3;
-    /* margin-left: 10px; */
+    grid-row: 3/4;
+    margin-left: 10px;
+
   }
   
   .dw {
@@ -231,7 +232,7 @@ footer {
   
   .cv {
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 4/5;
     margin-left: 10px;
     margin-top: 20px;
   }
