@@ -187,21 +187,22 @@ footer {
     margin-left: 20px;
     margin-top: 20px;
   }
-/*   
+ 
   nav {
-    /* margin-top: 15px; */
+    margin-top: 15px; 
+    padding-top: 50px;
+  }
   
   
-  
-  nav a {
+  nav  {
     /* margin-left: 10px; */
     margin-right: 10px;
-    padding: 20px;
+    
   } 
   
   nav a:nth-last-of-type(1) {
     margin-left: auto;
-    margin-top: auto;
+    margin-top: 100px;
     /* margin-top: 20px; */
   }
   
@@ -210,6 +211,9 @@ footer {
     margin-top: 150px;
     margin-left: 10px;
     grid-gap: 20px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
    margin-left: auto;
    margin-right: auto;
   }
@@ -229,6 +233,7 @@ footer {
     grid-row: 1/2;
     /* margin: 0; */
     transform: rotate(10deg);
+    margin-top: 30px;
   }
   
   .out {
