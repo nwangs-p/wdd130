@@ -221,7 +221,7 @@ footer {
   .img2 {
     width: 65%;
     height: auto;
-    grid-column: 1/2;
+    grid-column: 1/6;
     grid-row: 1/2;
     margin-left: 80px;
     transform: rotate(-10deg);
@@ -233,7 +233,7 @@ footer {
     grid-row: 1/2;
     /* margin: 0; */
     transform: rotate(10deg);
-    margin-top: 30px;
+    margin-top: 43px;
   }
   
   .out {
