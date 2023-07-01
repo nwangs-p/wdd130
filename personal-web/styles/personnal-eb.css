@@ -176,12 +176,19 @@ footer {
 /* Styles for minimum screens (max-width: 768px) */
 @media screen and (max-width: 768px) {
   header {
-    grid-template-columns: auto;
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
+  }
+
+  .logo_link {
+    grid-column: 1/2;
+    grid-row: 1/2;
   }
   
   nav {
     margin-top: 15px;
+    grid-column: 1/5;
+    grid-row: 2/3;
   }
   
   nav a {
@@ -192,6 +199,8 @@ footer {
   nav a:nth-last-of-type(1) {
     margin-left: 0;
     margin-top: 20px;
+    grid-column: 2/3;
+    grid-row: 1/2;
   }
   
   #page-img {
@@ -202,7 +211,7 @@ footer {
   }
   
   .img2 {
-    width: 100%;
+    width: 50%;
     height: auto;
     grid-column: 1/2;
     grid-row: 1/2;
@@ -210,7 +219,7 @@ footer {
     /* transform: rotate(-10deg); */
   }
   .img1 {
-    width: 100%;
+    width: 50%;
     height: auto;
     grid-column: 1/2;
     grid-row: 2/3;
