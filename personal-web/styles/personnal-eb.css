@@ -188,7 +188,7 @@ footer {
   nav {
     margin-top: 15px;
     grid-column: 1/5;
-    grid-row: 2/3;
+    grid-row: 2/4;
   }
   
   nav a {
@@ -199,8 +199,6 @@ footer {
   nav a:nth-last-of-type(1) {
     margin-left: 0;
     margin-top: 20px;
-    grid-column: 2/3;
-    grid-row: 1/2;
   }
   
   #page-img {
@@ -208,6 +206,7 @@ footer {
     margin-top: 150px;
     margin-left: 10px;
     grid-gap: 20px;
+    justify-content: center;
   }
   
   .img2 {
