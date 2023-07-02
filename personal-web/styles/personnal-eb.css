@@ -251,7 +251,7 @@ footer {
   
   .img1, .img2 {
     width: 65%;
-    height: auto;
+    height: 50%;
     grid-column: 1/2;
     grid-row: 1/2;
     margin: 0; 
