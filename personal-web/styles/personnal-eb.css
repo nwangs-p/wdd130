@@ -190,7 +190,7 @@ footer a:nth-of-type(1) {
   
   .main-nav {
     display: grid;
-    grid-template-columns: 10px 10px;
+    grid-template-columns: 1fr 1fr;
     margin-top: 15px;
   }
   
@@ -274,7 +274,6 @@ footer a:nth-of-type(1) {
     padding-left: 10px;
     font-size: 13px;
     justify-content: center;
-    margin: 0 auto;
 
   }
 
