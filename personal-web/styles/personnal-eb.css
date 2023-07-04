@@ -206,7 +206,6 @@ footer a:nth-of-type(1) {
   #page-img {
     grid-template-columns: repeat(6, 1fr);
     margin-top: 150px;
-    grid-gap: 20px;
     justify-content: center;
     align-items: center;
     justify-items: center;
