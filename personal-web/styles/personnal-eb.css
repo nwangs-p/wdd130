@@ -189,22 +189,13 @@ footer a:nth-of-type(1) {
   }
   
   nav {
-    margin-top: 15px;
+    margin-top: 105px;
   }
   
   nav a {
     margin-left: 10px;
     margin-right: 10px;
     opacity: .80;
-  }
-  
-
-  nav a:nth-last-of-type(1) {
- 
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 50px;
-  
   }
 
 
@@ -220,8 +211,8 @@ footer a:nth-of-type(1) {
   
 
   .img1, .img2 {
-    width: 120%;
-    height: 105%;
+    width: 80%;
+    height: 60%;
     grid-column: 1/2;
     grid-row: 1/2;
 
