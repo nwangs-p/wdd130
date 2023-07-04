@@ -185,7 +185,7 @@ footer a:nth-of-type(1) {
 @media screen and (max-width: 768px) {
   header {
     grid-template-columns: auto;
-    justify-content: space-around;
+    justify-content: center;
   }
   
   nav {
@@ -211,8 +211,8 @@ footer a:nth-of-type(1) {
   
 
   .img1, .img2 {
-    width: 150px;
-    height: 110px;
+    width: 250px;
+    height: 120px;
     grid-column: 1/2;
     grid-row: 1/2;
 
