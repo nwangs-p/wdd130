@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>content</title>
+  <Link rel="stylesheet" href="content.css">
+</head>
+<body>
+  <div class="scroll-container">
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1/4</div>
+      <img src="images/pexels-photo-14264358.webp" alt="first img">
+      <div class="text">First pic</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2/4</div>
+      <img src="images/pexels-photo-3695797.jpeg" alt="second img">
+      <div class="text">Second pic</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3/4</div>
+      <img src="images/pexels-photo-3111251.jpeg" alt="third img">
+      <div class="text">Third pic</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4/4</div>
+      <img src="images/pexels-photo-3299386.jpeg" alt="4th img">
+      <div class="text">Fourth pic</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+ 
+  <br>
+
+    <div class="dot-container" style="text-align: center;">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+</div>
+
+
+  <script>
+    // Slideshow functionality
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+
+    // Scrolling functionality
+    var scrollContainer = document.querySelector(".scroll-container");
+
+    scrollContainer.addEventListener("wheel", function(event) {
+      event.preventDefault();
+      scrollContainer.scrollBy(0, event.deltaY);
+    });
+
+  </script>  
+
+</body>
+</html>
