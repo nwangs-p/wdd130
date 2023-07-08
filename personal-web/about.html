@@ -4,57 +4,66 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/personnal-eb.css">
   <title>About</title>
 </head>
-<body>
+<body background="iimages/m10.png">
   <header>
-    <a class="logo_link" href="home.htnl">
+    <a class="logo_link" href="home.html">
       <img src="iimages/Feel the power of development.png" alt="logo_img">
     </a>
-    <nav>
+    <nav class="main-nav">
       <a href="about.html">About</a>
-      <a href="home.html">Home</a>
+      <a href="hom.html">Home</a>
       <!-- <a href="#">More</a> -->
       <a href="more.html">More</a>
       <a href="#">Contact</a>
     </nav>
   </header>
   <main>
-    <section>
-      <h1>Introduction</h1>
+    <section class="fir">
+      <h1 class="f1">Introduction</h1>
       <hr>
-      <p>Welcome to my portfolio, I'm Ifeanyi Nwanga, a creative web developer.
+      <p class="ff">Welcome to my portfolio, I'm Ifeanyi Nwanga, a creative web developer.
         As a professional with many years of experience in the industry, I have had the opportunity to work with top companies.
         Although my journey wasn't an easy one, building a successful career as a web developer takes time, dedication and commitment,
         I am always happy and determine working closely with clients to understand their vision and bring it to life through thoughtful and engaging design solutions.
       </p>
-      <p>My educational background includes a Bachelor's degree in web development, I also have various certificates in areas such as typography and UI design.
+      <p class="ff">My educational background includes a Bachelor's degree in web development, I also have various certificates in areas such as typography and UI design.
         Am always open to working and collaborating with new people, kindly reach out to me if you are looking for a developer to take your design next level.
       </p>
     </section>
-    <section>
-      <h1>Skills</h1>
-      <hr>
-      <h3>Python</h3>
+    <section class="bar-grid">
+      <div class="skills">
+        <h1 class="s">Skills</h1>
+      </div>
+      <div class="bar1">
+        <h4>Python</h4>
         <div class="progress-bar">
-          <div class="progress"></div>
+          <div class="progress" id="progress1">75%</div>
         </div>
-      <h3>JS</h3>
+      </div>
+      <div class="bar2">
+        <h4>JS</h4>
         <div class="progress-bar">
-          <div class="progress"></div>
+          <div class="progress" id="progress2">65%</div>
         </div>
-      <h3>CSS/HTML</h3>
+      </div>
+      <div class="bar3">
+        <h4>CSS/HTML</h4>
         <div class="progress-bar">
-          <div class="progress"></div>
+          <div class="progress" id="progress3">85%</div>
         </div>
-      <aside class="out-a">
-        <img src="iimages/programming-languages-shutterstock-1680857539.webp" alt="about pic">
+      </div>
+      <aside class="out-mm">
+        <img class="img-mm" src="iimages/mlm.png" alt="about pic">
       </aside>
-
     </section>
   </main>
+</main>
   <footer>
     <p>RayTech &copy; 20x Ifeanyi Nwanga</p>
+    <a href="personal-site-plan.html">Site Plan</a>
     <div class="social">
       <a href="http://facebook.com" target="_blank">
         <img src="iimages/facebook.png" alt="fb">
@@ -64,5 +73,19 @@
       </a>
     </div>
   </footer>
+
+  <script>
+    var progressElement = document.getElementById('progress1');
+    var percentage = 75; // Set the desired percentage value here
+    progressElement.style.width = percentage + '%';
+
+    var progressElement = document.getElementById('progress2');
+    var percentage = 60; // Set the desired percentage value here
+    progressElement.style.width = percentage + '%';
+
+    var progressElement = document.getElementById('progress3');
+    var percentage = 85; // Set the desired percentage value here
+    progressElement.style.width = percentage + '%';
+  </script>
 </body>
 </html>
