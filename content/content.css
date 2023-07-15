@@ -148,4 +148,12 @@ div.scroll-container {
     width: 8px;
     margin: 0 2px;
   }
+
+  img {
+    /* position: absolute; */
+    width: 100%;
+    vertical-align: middle;
+  
+  }
+  
 }
