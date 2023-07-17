@@ -377,7 +377,7 @@ li {
     grid-column: auto; /* Align the text center */
     grid-row: auto; /* Align the text center */
     margin-left: 0; /* Center the text */
-    padding: 20px;
+    padding: 21px;
   }
 
   /* .dw { */
