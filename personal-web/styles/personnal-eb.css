@@ -353,6 +353,7 @@ li {
 
   nav a:nth-last-of-type(1) {
     margin-left: 10px;
+    margin-top: 20px;
   }
 
   #page-img {
@@ -382,10 +383,10 @@ li {
     padding: 20px;
   }
 
-  .dw {
+  /* .dw { */
     /* margin-left: 0; Center the download button */
-    text-align: center;
-  } 
+    /* text-align: center;
+  }  */
 
   .cv {
     grid-column: auto; /* Align the download button center */
@@ -403,6 +404,7 @@ li {
     /* padding-left: 10px; Reduce padding for footer content */
     font-size: 14px; /* Reduce the font size for footer text */
     justify-content: center;
+    grid-template-columns: auto
   }
 }
 
