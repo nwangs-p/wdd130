@@ -359,7 +359,7 @@ li {
   #page-img {
     grid-template-columns: auto; /* Make the images stack vertically */
     grid-template-rows: repeat(4, 1fr); /* Stack the images and text vertically */
-    margin-top: 70px; /* Adjust the top margin */
+    margin-top: 100px; /* Adjust the top margin */
     grid-gap: 10px; /* Reduce the gap between images and text */
     margin-left: 0; /* Center the images and text */
 
@@ -395,7 +395,7 @@ li {
   }
 
   .down {
-    margin-top: 30px; /* Adjust the top margin for the content text */
+    margin-top: 0; /* Adjust the top margin for the content text */
     margin-left: 20px; /* Adjust the left margin for the content text */
     margin-right: 20px; /* Adjust the right margin for the content text */
     font-size: 16px; /* Reduce the font size for content text */
