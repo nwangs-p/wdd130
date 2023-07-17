@@ -333,3 +333,65 @@ li {
   width: 40%;
 
 }
+
+
+
+@media (max-width: 768px) {
+  header {
+    grid-template-columns: auto; /* Make the logo and nav stack vertically */
+    justify-content: center; /* Center the logo and nav */
+    text-align: center; /* Center the nav links */
+  }
+
+  nav {
+    margin-top: 10px; /* Reduce the top margin for the nav links */
+  }
+
+  nav a {
+    margin: 10px; /* Increase the margin for the nav links */
+  }
+
+  #page-img {
+    grid-template-columns: auto; /* Make the images stack vertically */
+    grid-template-rows: repeat(4, 1fr); /* Stack the images and text vertically */
+    margin-top: 30px; /* Adjust the top margin */
+    grid-gap: 10px; /* Reduce the gap between images and text */
+    margin-left: 0; /* Center the images and text */
+  }
+
+  .img1,
+  .img2 {
+    width: 100%; /* Make images take full width */
+    height: auto; /* Auto adjust image height */
+    transform: none; /* Remove rotation */
+    margin: 0; /* Remove margin for images */
+  }
+
+  .out {
+    grid-column: auto; /* Align the text center */
+    grid-row: auto; /* Align the text center */
+    margin-left: 0; /* Center the text */
+    padding: 20px;
+  }
+
+  .dw {
+    margin-left: 0; /* Center the download button */
+  }
+
+  .cv {
+    grid-column: auto; /* Align the download button center */
+    grid-row: auto; /* Align the download button center */
+  }
+
+  .down {
+    margin-top: 30px; /* Adjust the top margin for the content text */
+    margin-left: 20px; /* Adjust the left margin for the content text */
+    margin-right: 20px; /* Adjust the right margin for the content text */
+    font-size: 16px; /* Reduce the font size for content text */
+  }
+  
+  footer {
+    padding-left: 10px; /* Reduce padding for footer content */
+    font-size: 14px; /* Reduce the font size for footer text */
+  }
+}
