@@ -361,6 +361,10 @@ li {
     margin-top: 30px; /* Adjust the top margin */
     grid-gap: 10px; /* Reduce the gap between images and text */
     margin-left: 0; /* Center the images and text */
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
   }
 
   .img1,
