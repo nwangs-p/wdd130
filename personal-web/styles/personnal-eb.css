@@ -382,6 +382,7 @@ li {
 
   .dw {
     margin-left: 0; 
+    margin-right: 0;
   
   } 
 
@@ -404,8 +405,13 @@ li {
     grid-template-columns: auto
   }
 
+  footer a:nth-of-type(1) {
+    padding-left: 0;
+  }
+
   .social {
-    margin-left: auto;
+    margin-left: 10px;
+    padding-left: 0;
   }
 }
 
