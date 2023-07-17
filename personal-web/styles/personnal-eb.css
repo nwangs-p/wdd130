@@ -381,14 +381,17 @@ li {
   }
 
   .dw {
-    margin-left: 0; 
-    margin-right: 0;
-  
+    margin-left: 0 auto; 
+    margin-right: 0 auto;
+    text-align: center;
   } 
 
   .cv {
     grid-column: auto; /* Align the download button center */
     grid-row: auto; /* Align the download button center */
+    margin-left: 0 auto; 
+    margin-right: 0 auto;
+    text-align: center;
   }
 
   .down {
