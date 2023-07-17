@@ -393,5 +393,10 @@ li {
   footer {
     padding-left: 10px; /* Reduce padding for footer content */
     font-size: 14px; /* Reduce the font size for footer text */
+    justify-content: center;
   }
+}
+
+.social {
+  padding-left: 10px;
 }
