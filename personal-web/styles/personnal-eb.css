@@ -358,8 +358,8 @@ li {
 
   #page-img {
     grid-template-columns: auto; /* Make the images stack vertically */
-    grid-template-rows: repeat(4, 1fr); /* Stack the images and text vertically */
-    margin-top: 100px; /* Adjust the top margin */
+    /* grid-template-rows: repeat(4, 1fr); Stack the images and text vertically */
+    margin-top: 150px; /* Adjust the top margin */
     grid-gap: 10px; /* Reduce the gap between images and text */
     margin-left: 0; /* Center the images and text */
 
@@ -381,7 +381,7 @@ li {
   }
 
   .dw {
-    margin-left: 40px; 
+    margin-left: 60px; 
   } 
 
   .cv {
