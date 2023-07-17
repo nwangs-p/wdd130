@@ -362,10 +362,7 @@ li {
     margin-top: 70px; /* Adjust the top margin */
     grid-gap: 10px; /* Reduce the gap between images and text */
     margin-left: 0; /* Center the images and text */
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
+
   }
 
   .img1,
@@ -391,6 +388,8 @@ li {
   .cv {
     grid-column: auto; /* Align the download button center */
     grid-row: auto; /* Align the download button center */
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .down {
