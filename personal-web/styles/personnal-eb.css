@@ -334,6 +334,65 @@ li {
 
 }
 
+/* css for aspects */
+
+h1, dt, dd {
+  color: white;
+} 
+
+dd {
+  font-family:   Roboto, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.dd {
+  font-family:   Roboto, Helvetica, sans-serif;
+  font-size: 17px;
+  color: white;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+.aspects {
+  font-family: 'Geologica';
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+dl {
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+/* .m {
+  margin-left: 70px;
+  margin-right: 30px;
+} */
+
+.lk {
+  margin-left: 110px;
+  margin-right: 30px;
+}
+
+.nn {
+  margin-left: 30px;
+  font-size: 30px;
+  font-family: 'Geologica';
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.aspects-img {
+  margin-left: 30px;
+  margin-top: 50px;
+  width: 40%;
+}
+
+span {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 22px;
+}
 
 
 @media (max-width: 768px) {
