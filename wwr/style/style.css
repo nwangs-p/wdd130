@@ -105,7 +105,7 @@
 
 .p-page{
     font-size: 25px;
-    margin: 20px;
+    margin: 20px
 }
 
 .books, .join {
@@ -147,11 +147,11 @@ a.books:hover {
     background-color: #a7a1a1;
     /* background-color: #6f7364; */
     box-shadow: 5px 5px 10px #6f7364;
-    line-height: 1.5rem;
+    /* line-height: 1.5rem; */
     padding: 35px;
     /* margin-left: 200px; */
-    grid-column: 6/11;
-    grid-row: 2/7;
+    grid-column: 6/10;
+    grid-row: 6/7;
     
 }
 
