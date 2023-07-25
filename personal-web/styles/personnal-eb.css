@@ -461,10 +461,10 @@ span {
   }
 
   .dw {
-    /* margin-left: 60px;  */
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    margin-left: 90px; 
+    /* display: flex;
+    justify-content: center; */
+    margin-bottom: 100px;
   } 
 
   .cv {
@@ -498,7 +498,7 @@ span {
   /* more css responsive */
 
   .clearfix h1 {
-    font-size: 10px;
+    /* font-size: 10px; */
     border-bottom: solid white 3px;
     width: 100%;
   }
@@ -510,10 +510,41 @@ span {
   }
 
   .bar-grid {
-    grid-template-columns: auto;
-    grid-gap: 12px;
+    display: flex;
+    /* grid-gap: 12px; */
+    padding: 20px;
     margin-top: 120px;
   }
+
+  /* .skills {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-bottom: 0px;
+    color: white;
+  }
+  
+  .bar1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: white;
+  }
+  
+  .bar2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: white;
+  }
+  
+  .bar3 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    color: white;
+  }
+  
+  .out-mm {
+    grid-column: 2/3;
+    grid-row: 1/5;
+  } */
 
   .s {
     border-bottom: solid white 9px;
