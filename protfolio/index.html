@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Web Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="image-container">
+      <img src="images/man_smoke.jpg" alt="man_smoke">
+        <div class="color-overlay"></div>
+      </div>
+      <a href="#home">
+        <i class="material-icons" style="font-size:400%;">home</i>
+        <p>Home</p>
+      </a>
+      <a href="#about">
+        <i class="material-icons" style="font-size:400%;">person</i>
+        <p>About</p>
+      </a>
+      <a href="#contact">
+        <!-- <i class="glyphicon1 glyphicon-home"></i> -->
+        <i class="material-icons" style="font-size:400%;">email</i>
+        <p>Contact</p>
+      </a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>I'm Ifeanyi Nwanga.</h1>
+      <p>Front-End Web Developer.</p>
+    </div>
+    <div class="image-container1">
+      <img src="images/man_smoke.jpg" alt="man_smoke">
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <div class="line"></div>
+      <p>
+        Welcome to my portfolio, I'm Ifeanyi Nwanga, a creative web developer.
+        As a professional with many years of experience in the industry, I have been opportunit to work on some projects.
+        Although my journey wasn't an easy one, building a successful career as a web developer takes time, dedication and commitment,
+        I am always happy and determine working closely with clients to understand their vision and bring it to life through thoughtful and engaging design solutions.
+      </p>
+    </div>
+    <section class="skill-content">
+      <div class="skills">
+      <h2 class="s">My Skills</h2>
+      </div>
+      <div class="bar-1">
+        <h4>Python</h4>
+        <div class="skill-bar">
+          <div class="skill-progress" id="progress1"></div>
+        </div>
+      </div>
+      <div class="bar-2">
+        <h4>JS</h4>
+        <div class="skill-bar">
+          <div class="skill-progress" id="progress2"></div>
+        </div>
+      </div>
+      <div class="bar-3">
+        <h4>CSS/HTML</h4>
+        <div class="skill-bar">
+          <div class="skill-progress" id="progress3"></div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="clearfix"> -->
+      <div class="project">
+        <span> 5+</span><br>
+        Projects Done
+      </div>
+    <!-- </section> -->
+    <div id="feedback1" style="margin-left: 49%; color: white;"></div>
+    <button id="downloadcv">
+      <i class="fa fa-download"></i>
+      Download Resume
+    </button>
+  </section>
+
+  <!-- <section id="projects">
+    <div class="projects-content">
+      <h2>Projects</h2> -->
+      <!-- Add your project thumbnails and descriptions here -->
+      <!-- <div class="project">
+        <img src="project1-thumbnail.jpg" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>
+          Brief description of your project and technologies used.
+        </p>
+      </div>
+      <div class="project">
+        <img src="project2-thumbnail.jpg" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>
+          Brief description of your project and technologies used.
+        </p>
+      </div> -->
+      <!-- Add more projects as needed -->
+    <!-- </div>
+  </section> -->
+
+  <section id="contact">
+    <div class="contact-content">
+      <h2>Contact Me</h2>
+      <!-- <hr style="width: 20%;"> -->
+    </div>
+    <div class="contact-info">
+      <P><i class="fa fa-map-marker" style="font-size: 250%; margin-right: 2%; color: white;"></i>Benin City, Nigeria</P>
+      <p><i class="fa fa-phone" style="font-size: 250%; margin-right: 2%; color: white;"></i>Phone: 08151487522</p>
+      <p><i class="fa fa-envelope" style="font-size: 250%; margin-right: 2%; color:white;"></i>ifeanyidiamond5@gmail.com</p>
+      <p><i class="fa fa-whatsapp" style="font-size: 250%; margin-right: 2%; color: white;"></i>Whatsapp Me: 09039741526</p>
+    </div><br>
+    <p class="msg">Let's connect</p>
+
+    <div id="feedback" style="margin-left: 20%; color: white;"></div>
+    <form action="/my-handling-form-page" method="post" class="send_form">
+      <input type="text" id="name" placeholder="Name" name="user_name">
+      <input type="text" id="email" placeholder="Email" name="user_email">
+      <input type="text" id="Subject" placeholder="Subject" name="user_subject">
+      <textarea id="Message" placeholder="Message" name="user_message"></textarea>
+      <button type="submit">
+        <i class="fa fa-paper-plane">Send Message</i>
+      </button>
+    </form>
+
+  </section>
+
+  <footer>
+    <div class="footer sec">
+      <i class="fa fa-facebook" style="font-size: 180%;"></i>
+      <i class="fa fa-instagram" style="font-size:180%;"></i>
+      <i class="fa fa-twitter" style="font-size: 180%;"></i>
+      <i class="fa fa-linkedin" style="font-size: 180%;"></i>
+      <p>&copy;2023 Ifeanyi Nwanga - Web Portfolio</p>
+  </div>
+  </footer>
+
+  <script>
+    var progressElement = document.getElementById('progress1'); var percentage = 75; // Set the desired percentage value here
+    progressElement.style.width = percentage + '%';
+
+    var progressElement = document.getElementById('progress2'); var percentage = 70; // Set the desired percentage value here
+    progressElement.style.width = percentage + '%';
+
+    var progressElement = document.getElementById('progress3');var percentage = 85; // Set the desired percentage value here
+    progressElement.style.width = percentage + '%';
+
+       // get the feedback div element so we can do something with it.
+       const feedbackElement = document.getElementById('feedback');
+      // get the form so we can read what was entered in it.
+      const formElement = document.forms[0];
+      // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+      formElement.addEventListener('submit', function(e) {
+          // stop the form from doing the default action.
+          e.preventDefault();
+          // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+          feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Message is currently unavailable, kindly message us on whatsapp!';
+          // make the feedback element visible.
+          feedbackElement.style.display = "block";
+          // add a class to move everything down so our message doesn't cover it.
+          document.body.classList.toggle('moveDown');
+      });
+
+       // get the feedback div element for "Download CV" button feedback
+      const feedback1Element = document.getElementById('feedback1');
+
+      // get the "Download CV" button by its ID
+      const downloadcvButton = document.getElementById('downloadcv');
+
+      // add a 'click' event listener to the "Download CV" button
+      downloadcvButton.addEventListener('click', function(e) {
+          // prevent the default action (following the link)
+          e.preventDefault();
+          
+          // set the feedback message for the "Download CV" button
+          feedback1Element.innerHTML = 'Cant download CV at the moment!';
+          
+          // make the feedback element visible
+          feedback1Element.style.display = "block";
+          
+          // add a class to move everything down so the message doesn't cover it
+          document.body.classList.toggle('moveDown');
+      });
+  </script>
+</body>
+</html>
