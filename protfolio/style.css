@@ -1,6 +1,8 @@
+* {box-sizing: border-box;}
 body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
+
 }
 
 body {
@@ -11,7 +13,7 @@ body {
 /* Header styles */
 header {
   background-color: #333;
-  /* padding: 20px 0; */
+  padding: 0px 0px 0px 0px;
   top: 0;
   left: 0;
   overflow-x: hidden;
@@ -19,6 +21,7 @@ header {
   height: 100%;
   width: 9%;
   z-index: 1;
+
 }
 
 
@@ -30,12 +33,6 @@ nav a {
   text-decoration: none;
   /* font-size: 50px; */
   padding: 10px 5px;
-  /* justify-content: center;
-  align-content: center;
-  justify-self: center;
-  align-items: end; */
-  margin-left: auto;
-  /* grid-gap: 10px; */
 }
 
 /* .home p{
@@ -56,26 +53,26 @@ nav a:hover {
   background-color: black;
   width: 100%;
   color: white;
-  margin-left: auto;
+  /* margin-left: auto; */
   /* left: 0; */
   text-decoration-line: none;
 }
 
 .image-container {
   position: relative;
-  display: inline-block; 
+  /* display: inline-block;  */
 }
 
 .image-container img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  display: block;
+  /* display: block; */
 }
 
 .color-overlay {
   position: absolute;
   top: 0;
-  left: 0;
+  /* left: 0; */
   width: 100%;
   height: 100%;
   background-color: rgba(164, 153, 153, 0.5); 
@@ -311,7 +308,7 @@ button {
   /* margin-left: auto;
   margin-right: auto; */
   color: black;
-  font-size: large;
+  font-size: 80%;
   background: white;
   /* margin-bottom: 50px; */
 
@@ -326,7 +323,7 @@ button:hover{
 footer {
   color: rgb(244, 238, 238);
   background-color: black;
-  padding: 29px;
+  padding-bottom: 25px;
   /* background-attachment: fixed;
   background-size: 100% 100%; */
   /* margin: auto; */
@@ -345,3 +342,70 @@ footer p{
 footer i:hover{
   opacity: 0.7;
 }
+
+
+
+
+@media screen and (max-width: 700px) {
+    header {
+      opacity: 0.7;
+      width: 100%; /* Full width */
+      top: 0; /* Stay at the top */
+      left: 0; /* Reset to the left */
+      position: fixed; 
+      height: 10% /* Auto height */
+    }
+    
+    /* Hide the image container and navigation icons */
+    .image-container {
+      display: none;
+      
+    }
+    
+    nav {
+    
+      padding: 0% 10% 0% 5%;
+      /* display: flex; */
+      
+
+    }
+
+    nav a {
+      margin-top: 5px;
+      margin-left: 50px;
+      /* padding-left: 25px; */
+      background-color: black;
+      width: 20%;
+      height: 40px;
+      display: inline-flex;
+      justify-content: space-around;
+    }
+
+    .material-icons {
+      display: none;
+    }
+    nav  :nth-last-child(3) {
+      background-color: none;
+      width: 20%;
+    }
+
+    #nav-icons {
+      display: none;
+    }
+
+    nav a:hover{
+      width: 20%;
+    }
+
+    .project {
+      width: 12%;
+    }
+
+    #downloadcv {
+      width: 19%;
+    }
+    
+    /* #feedback1 {
+      margin-left: 20%;
+    } */
+  }
