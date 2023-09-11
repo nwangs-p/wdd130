@@ -398,13 +398,20 @@ footer i:hover{
     }
 
     .project {
-      width: 12%;
+      width: 15%;
+      font-size: 80%;
     }
 
     #downloadcv {
-      width: 19%;
+      width: 22%;
+      font-size: 80%;
     }
     
+
+    button {
+      width: 23%;
+      font-size: 70%;
+    }
     /* #feedback1 {
       margin-left: 20%;
     } */
